@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0
+  }
+
+#total {
+    display: flex;
+}
+
+#photo-div {
+    display: flex;
+    flex: 1 0 auto;
+    min-width: 0;
+    width: 1vw;
+}
+
+#logo {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 15%;
+}
+
+#background-image {
+    width: 100%;
+    height: auto;
+}
+
+#form-div {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    justify-content: space-between;
+}
+
+.form {
+    display: flex;
+    flex: 1 0 auto;
+}
