@@ -165,3 +165,19 @@ a {
     color: #596D48;
     font-weight: bold;
 }
+
+.error {
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    height: 75%;
+    width: 85%;
+    font-size: 1.7vh;
+    font-family: sans-serif;
+    padding: .2vh;
+}
+
+.error:focus {
+    outline: none;
+    border-color: red;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+}
